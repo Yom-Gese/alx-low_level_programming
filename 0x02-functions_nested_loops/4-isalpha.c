@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-  * _islower - check if char is lowercase
-  * @alph: character to test.
-  * Return: Nothing.
+  * _isalpha - check if char is n APLH
+  * @alph: - Variable that holds request
+  * Return: 1 if on alphabet else 0.
   */
-int _islower(int alph)
+int _isalpha(int alph)
 {
-	if (alph >= 'a' && alph <= 'z')
+	if ((alph >= 'a' && alph <= 'z') || (alph >= 'A' && alph <= 'Z'))
 		return (1);
 	else
 		return (0);
