@@ -1,10 +1,11 @@
-ifndef HOLBERTON_H
+#ifndef HOLBERTON_H
 #define HOLBERTON_H
 
 /**
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x05-pointers_arrays_strings directory.
  */
+
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -18,4 +19,5 @@ char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
+
 #endif
