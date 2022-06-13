@@ -1,18 +1,11 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * swap_int - swaping 2 integer using a pointer
- * @a:integer
- * @b:integer
+ * reset_to_98 - change the value of integer using pointer
+ * @n: pointer
  * Return:void
  */
-
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int x;
-
-	x = *a;
-	*a = *b;
-	*b = x;
-	return;
+	*n = 98;
 }
